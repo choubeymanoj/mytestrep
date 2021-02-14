@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OnionArchitecture.API</id>
+    <title>OnionArchitecture.API</title>
+    <version>1.0.1</version>
+    <iconUrl>https://raw.githubusercontent.com/Amitpnk/Onion-architecture-ASP.NET-Core/master/docs/img/OnionArchitecture_icon.png</iconUrl>
+    <description>
+      WhiteApp or QuickApp API solution template which is built on Onion Architecture with all essential feature using .NET Core
+    </description>
+    <summary>
+      Creates a new ASP NET Core application using the onion architecture and essential libraries
+    </summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Amti Naik</authors>
+    <copyright>Copyright Â© Amit Naik 2020</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Amitpnk/Onion-architecture-ASP.NET-Core/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core</projectUrl>
+    <tags>Template, AspNet, Mvc, onion architecture, feature folders, essential libraries, DDD, domain driven design, onion</tags>
+  </metadata>
+  <files>
+    <file src="template.config/*" target="src/.template.config" />
+    <file src="OA/**" exclude="OA/obj/**" target="src" />
+    <file src="OA.*/**" exclude="OA.*/obj/**" target="src" />
+    <file src="OA.sln" target="src" />
+    <file src="README.md" target="src" />
+    <file src=".idea/**" exclude="*" />
+    <file src=".git/**" exclude="*"/>
+    <file src="./**" exclude="*.png" />
+    <file src="./**" exclude="*.svg" />
+  </files>
+</package>
