@@ -1,0 +1,5 @@
+[API] --> [Service]
+[API] --> [Persistence]
+[Service] --:> [Persistence]
+[Persistence] --:> [Data]
+[Data] --:> [Domain]
